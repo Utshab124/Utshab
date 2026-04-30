@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Play, MessageCircle } from 'lucide-react';
+import { Instagram, Linkedin, Play } from 'lucide-react';
 
 interface FooterProps {
   onShowTerms?: () => void;
@@ -28,9 +28,6 @@ export default function Footer({ onShowTerms }: FooterProps) {
           <div className="flex gap-8">
             <a href="https://www.instagram.com/utshabsaha43?igsh=NGZpMHB4NjJvaW5j" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-accent hover:text-black transition-all duration-300">
               <Instagram size={20} />
-            </a>
-            <a href="https://wa.me/qr/CNDVTWGYMXA7A1" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-accent hover:text-black transition-all duration-300">
-              <MessageCircle size={20} />
             </a>
             <a href="https://www.linkedin.com/in/utshab-8b4381355" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-accent hover:text-black transition-all duration-300">
               <Linkedin size={20} />
