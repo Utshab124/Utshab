@@ -26,7 +26,7 @@ export default function Footer({ onShowTerms }: FooterProps) {
           </div>
 
           <div className="flex gap-8">
-            <a href="https://www.instagram.com/utshabsaha43?igsh=NGZpMHB4NjJvaW5j" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-accent hover:text-black transition-all duration-300">
+            <a href="https://www.instagram.com/utshab278?igsh=MXBsZ3BtMGt4dWRwZw==" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-accent hover:text-black transition-all duration-300">
               <Instagram size={20} />
             </a>
             <a href="https://www.linkedin.com/in/utshab-8b4381355" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-accent hover:text-black transition-all duration-300">
