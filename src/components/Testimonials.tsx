@@ -27,15 +27,15 @@ export default function Testimonials() {
         <h3 className="text-3xl md:text-5xl font-black tracking-tighter text-white mb-16">What Clients Say.</h3>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonials.map((t, index) => (
-            <motion.div
-              key={t.name}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="p-8 rounded-2xl bg-white/5 border border-white/5 italic flex flex-col items-center"
-            >
+           {testimonials.map((t, index) => (
+             <motion.div
+               key={t.name}
+               initial={{ opacity: 0, y: 20 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+               transition={{ delay: index * 0.1 }}
+               className="p-8 rounded-2xl bg-white/5 border border-white/5 italic flex flex-col items-center"
+             >
               <div className="flex gap-1 text-accent mb-6">
                 {[...Array(5)].map((_, i) => <Star key={i} size={14} fill="currentColor" />)}
               </div>

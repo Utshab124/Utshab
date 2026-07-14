@@ -56,6 +56,41 @@ const projects: Project[] = [
     description: 'Comprehensive storytelling for long-form content with dynamic pacing and motion graphics.',
     driveId: '1E9YykhF-gZgzpuQP0_c07pKoe9siKyTQ',
   },
+  {
+    id: '11',
+    title: 'Commercial Video Production',
+    category: 'Commercial Edit',
+    description: 'Dynamic and visually stunning commercial video edit with seamless audio design.',
+    driveId: '1kel3AcVNgBMAFSgm6Vw2LvnqEwj482Kp',
+  },
+  {
+    id: '12',
+    title: 'High-Converting Promo Edit',
+    category: 'Commercial Edit',
+    description: 'An engaging promotional edit with seamless transitions and professional color grading.',
+    driveId: '1RQOQtbtc98mpOgYpIVddke8CbAzu-RH4',
+  },
+  {
+    id: '13',
+    title: 'Premium Cinematic Showcase',
+    category: 'Cinematic Edit',
+    description: 'A visually breathtaking cinematic edit with high-end pacing, color grading, and custom sound design.',
+    driveId: '1cJeGbAoujbMO7sT5BYT9wp4iDyxu5Y1w',
+  },
+  {
+    id: '14',
+    title: 'Dynamic Narrative Edit',
+    category: 'YouTube Content',
+    description: 'An engaging, high-energy storytelling-focused video featuring advanced transitions and premium design.',
+    driveId: '1jfBwGDPP2v8Q7X18B1EqaFa_ymV_MQ8g',
+  },
+  {
+    id: '15',
+    title: 'Creative Storytelling Showcase',
+    category: 'YouTube Content',
+    description: 'A creative and high-impact visual storytelling edit featuring seamless timing and advanced techniques.',
+    driveId: '1WE10Doz2rtsQ33iQfnvCfQa1ADZrch01',
+  },
 ];
 
 export default function Work() {
